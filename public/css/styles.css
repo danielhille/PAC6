@@ -4,12 +4,29 @@
 
 body {
     margin: 0%;
+    padding: 0%;
     background-color: #e3edf7;
 }
 
-#overall {
+#title {
+    font-family: 'Cookie', cursive;
+    font-size: 90px;
+    color: #666666;
+    margin-top: 20vh;
+    padding: 0%;
     width: 100vw;
-    height: 100vh;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+#overall {
+    padding: 0%;
+    width: 100vw;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +36,6 @@ body {
 #botao {
     width: 0;
     height: 0;
-    margin-top: -160px;
 }
 
 #botao:before {
